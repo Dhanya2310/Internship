@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>InnovateX — Internship Application</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar__inner">
+    <div class="brand">
+      <span class="brand__mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" width="28" height="28">
+          <circle cx="16" cy="6" r="5" fill="#7C6FF0"/>
+          <circle cx="16" cy="26" r="5" fill="#7C6FF0"/>
+          <circle cx="6" cy="16" r="5" fill="#7C6FF0"/>
+          <circle cx="26" cy="16" r="5" fill="#7C6FF0"/>
+          <circle cx="16" cy="16" r="6" fill="#4C3FC0"/>
+        </svg>
+      </span>
+      <span class="brand__name">Innovate<span class="brand__accent">X</span></span>
+    </div>
+
+    <nav class="nav" aria-label="Primary">
+      <a href="#" class="nav__link">Home</a>
+      <a href="#" class="nav__link">About Us</a>
+      <a href="#" class="nav__link nav__link--active">Internships</a>
+      <a href="#" class="nav__link">Programs</a>
+      <a href="#" class="nav__link">Contact</a>
+    </nav>
+
+    <button class="btn btn--ghost" type="button">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+      My Dashboard
+    </button>
+  </div>
+</header>
+
+<main class="layout">
+
+  <!-- LEFT PANEL -->
+  <section class="hero" aria-labelledby="hero-heading">
+    <div class="hero__badge">
+      <span class="hero__badge-icon" aria-hidden="true">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#4C3FC0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+      </span>
+      Join. Learn. Grow.
+    </div>
+
+    <h1 id="hero-heading" class="hero__title">
+      Start Your Journey<br>with <span class="hero__title-accent">InnovateX</span>
+    </h1>
+
+    <p class="hero__lede">
+      Apply for our internship program and kickstart your career with real-world experience and mentorship.
+    </p>
+
+    <ul class="feature-list">
+      <li class="feature">
+        <span class="feature__icon feature__icon--violet" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#7C6FF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"></path><path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"></path><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path></svg>
+        </span>
+        <div>
+          <p class="feature__title">Real World Experience</p>
+          <p class="feature__desc">Work on live projects and solve meaningful problems.</p>
+        </div>
+      </li>
+      <li class="feature">
+        <span class="feature__icon feature__icon--green" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#22A96C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+        </span>
+        <div>
+          <p class="feature__title">Mentorship</p>
+          <p class="feature__desc">Learn from industry experts and grow your skills.</p>
+        </div>
+      </li>
+      <li class="feature">
+        <span class="feature__icon feature__icon--amber" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#D9A441" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"></circle><path d="M15.48 13.34 17 21l-5-3-5 3 1.52-7.66"></path></svg>
+        </span>
+        <div>
+          <p class="feature__title">Certificate</p>
+          <p class="feature__desc">Get recognized with a certificate on successful completion.</p>
+        </div>
+      </li>
+    </ul>
+
+    <div class="hero__art" aria-hidden="true">
+      <svg viewBox="0 0 340 300" class="art-svg">
+        <ellipse cx="170" cy="278" rx="130" ry="14" fill="#DCD6FB" opacity="0.6"/>
+        <!-- books -->
+        <rect x="150" y="215" width="150" height="20" rx="4" fill="#B9AEF2"/>
+        <rect x="160" y="195" width="130" height="20" rx="4" fill="#FFFFFF" stroke="#DCD6FB" stroke-width="2"/>
+        <!-- plant pot -->
+        <path d="M30 250 L45 290 L85 290 L100 250 Z" fill="#FFFFFF" stroke="#E3DEFB" stroke-width="2"/>
+        <path d="M55 250 C40 210 50 180 65 165 C80 180 90 210 75 250 Z" fill="#8FCB9B"/>
+        <path d="M65 165 C55 190 55 220 65 250" stroke="#6FB57F" stroke-width="2" fill="none"/>
+        <!-- decorative gems -->
+        <circle cx="115" cy="265" r="16" fill="#CFE0FB"/>
+        <path d="M150 250 l16 -16 16 16 -16 16 z" fill="#E7E1FC"/>
+        <!-- backpack -->
+        <g transform="translate(175,60)">
+          <rect x="10" y="20" width="90" height="120" rx="26" fill="#9E90F5"/>
+          <rect x="24" y="0" width="62" height="40" rx="18" fill="none" stroke="#9E90F5" stroke-width="10"/>
+          <rect x="24" y="70" width="62" height="46" rx="10" fill="#B7ACF7"/>
+          <rect x="40" y="86" width="30" height="8" rx="4" fill="#7C6FF0"/>
+          <circle cx="55" cy="60" r="5" fill="#7C6FF0"/>
+          <rect x="0" y="30" width="16" height="60" rx="8" fill="#7C6FF0"/>
+          <rect x="104" y="30" width="16" height="60" rx="8" fill="#7C6FF0"/>
+        </g>
+        <circle cx="300" cy="120" r="4" fill="#fff"/>
+        <circle cx="290" cy="150" r="3" fill="#fff"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- RIGHT PANEL -->
+  <section class="form-card" aria-labelledby="form-heading">
+    <div class="form-card__head">
+      <span class="form-card__icon" aria-hidden="true">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#4C3FC0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.12 2.12 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
+      </span>
+      <div class="form-card__head-text">
+        <h1 id="form-heading">Internship Application</h1>
+        <p>Please fill in the details below to apply</p>
+      </div>
+
+      <ol class="stepper" aria-label="Application progress">
+        <li class="stepper__step is-active" data-step="1">
+          <span class="stepper__dot"></span>
+          <span class="stepper__label">Personal Info</span>
+        </li>
+        <li class="stepper__step" data-step="2">
+          <span class="stepper__dot"></span>
+          <span class="stepper__label">Education</span>
+        </li>
+        <li class="stepper__step" data-step="3">
+          <span class="stepper__dot"></span>
+          <span class="stepper__label">Review</span>
+        </li>
+      </ol>
+    </div>
+
+    <form id="application-form" novalidate>
+
+      <!-- STEP 1 -->
+      <fieldset class="step is-active" data-step-panel="1">
+        <legend class="step__legend">
+          <span class="step__legend-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#7C6FF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="10" r="3"></circle><path d="M6.5 19a6.5 6.5 0 0 1 11 0"></path></svg>
+          </span>
+          <span>
+            <span class="step__title">Personal Information</span>
+            <span class="step__subtitle">Let's get to know you better.</span>
+          </span>
+        </legend>
+
+        <div class="field-grid">
+          <div class="field">
+            <label for="fullName">Full Name</label>
+            <div class="input-wrap">
+              <svg class="input-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+              <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="email">Email Address</label>
+            <div class="input-wrap">
+              <svg class="input-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 6-10 7L2 6"></path></svg>
+              <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="phone">Phone Number</label>
+            <div class="input-wrap">
+              <svg class="input-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <input type="tel" id="phone" name="phone" placeholder="Enter your phone number"  pattern="[0-9]{10}" minlength="10" maxlength="10"  required>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="location">Location</label>
+            <div class="input-wrap">
+              <svg class="input-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <input type="text" id="location" name="location" placeholder="Enter your city / location" required>
+            </div>
+          </div>
+
+          <div class="field field--full">
+            <label for="linkedin">LinkedIn Profile <span class="optional">(Optional)</span></label>
+            <div class="input-wrap">
+              <svg class="input-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+              <input type="url" id="linkedin" name="linkedin" placeholder="https://linkedin.com/in/yourprofile">
+            </div>
+          </div>
+
+          <div class="field field--full">
+            <label for="resume">Resume / CV</label>
+            <div class="file-wrap">
+              <svg class="input-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+              <span class="file-wrap__text" id="resumeFileName">Upload your resume (PDF/DOC)</span>
+              <label class="btn btn--file" for="resume">Choose File</label>
+              <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" hidden>
+            </div>
+          </div>
+
+          <div class="field field--full">
+            <label for="motivation">Why do you want to join us?</label>
+            <textarea id="motivation" name="motivation" rows="4" placeholder="Tell us about your interests, goals and how this internship helps you..."></textarea>
+          </div>
+        </div>
+      </fieldset>
+
+      <!-- STEP 2 -->
+      <fieldset class="step" data-step-panel="2">
+        <legend class="step__legend">
+          <span class="step__legend-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#7C6FF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10 12 5 2 10l10 5 10-5z"></path><path d="M6 12v5c0 1.66 2.69 3 6 3s6-1.34 6-3v-5"></path></svg>
+          </span>
+          <span>
+            <span class="step__title">Education</span>
+            <span class="step__subtitle">Tell us about your academic background.</span>
+          </span>
+        </legend>
+
+        <div class="field-grid">
+          <div class="field field--full">
+            <label for="institution">Institution Name</label>
+            <div class="input-wrap">
+              <svg class="input-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10 12 5 2 10l10 5 10-5z"></path><path d="M6 12v5c0 1.66 2.69 3 6 3s6-1.34 6-3v-5"></path></svg>
+              <input type="text" id="institution" name="institution" placeholder="Enter your college / university name" required>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="degree">Degree / Course</label>
+            <div class="input-wrap">
+              <svg class="input-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+              <input type="text" id="degree" name="degree" placeholder="e.g. B.Sc Computer Science" required>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="gradYear">Graduation Year</label>
+            <div class="input-wrap">
+              <svg class="input-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+              <input type="number" id="gradYear" name="gradYear" placeholder="e.g. 2026" min="1990" max="2035" required>
+            </div>
+          </div>
+
+          <div class="field field--full">
+            <label for="skills">Key Skills</label>
+            <div class="input-wrap">
+              <svg class="input-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87L18.18 21 12 17.77 5.82 21 7 14.14l-5-4.87 6.91-1.01L12 2z"></path></svg>
+              <input type="text" id="skills" name="skills" placeholder="e.g. Python, Figma, Team Leadership">
+            </div>
+          </div>
+        </div>
+      </fieldset>
+
+      <!-- STEP 3 -->
+      <fieldset class="step" data-step-panel="3">
+        <legend class="step__legend">
+          <span class="step__legend-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#7C6FF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"></path><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
+          </span>
+          <span>
+            <span class="step__title">Review &amp; Submit</span>
+            <span class="step__subtitle">Check everything looks right before you apply.</span>
+          </span>
+        </legend>
+
+        <dl class="review-list" id="reviewList" aria-live="polite"></dl>
+
+        <label class="checkbox">
+          <input type="checkbox" id="confirmAccurate" required>
+          <span>I confirm the information above is accurate to the best of my knowledge.</span>
+        </label>
+      </fieldset>
+
+      <div class="form-actions">
+        <button type="button" class="btn btn--secondary" id="backBtn" hidden>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+          Back
+        </button>
+
+        <button type="submit" class="btn btn--primary" id="nextBtn">
+          <span id="nextBtnLabel">Save &amp; Continue</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </button>
+
+        <p class="secure-note">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          Your information is secure with us.
+        </p>
+      </div>
+    </form>
+
+    <div class="success-panel" id="successPanel" hidden>
+      <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="#22A96C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+      <h2>Application submitted!</h2>
+      <p>Thanks for applying to InnovateX. We'll review your application and get back to you by email.</p>
+      <button type="button" class="btn btn--secondary" id="startOverBtn">Start a new application</button>
+    </div>
+  </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
