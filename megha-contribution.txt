@@ -1,0 +1,6 @@
+Git & GitHub Collaboration Assignment
+
+Contributor: Megha
+
+I learned how to clone a repository, create changes,
+stage them, commit them, and push them to GitHub.
